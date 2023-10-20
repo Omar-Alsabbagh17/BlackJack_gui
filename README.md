@@ -30,7 +30,7 @@ The value of a player’s hand is displayed in the “totalCountField” next to
 
 When a player loses and reaches $0 total, a    game over screen will be displayed. To play again both players must close the application and select multiplayer mode.
 
-**Single Player code** 
+## Single Player code
 
 - FlowChart explaining The singlePlayer game flow 
 
@@ -140,7 +140,7 @@ Show\_loss\_screen: called when the player losses. It shows Loss message and pla
 - If you run out of money, then it will show “game over” message and “new game” button will be visible at the center of the screen 
 - Otherwise resets the visibility of game entities (player cards, dealer cards, etc..) 
 
-**Multiplayer Code** 
+## Multiplayer Code
 
 ![](__readme_stuff/Aspose.Words.6816781b-e4e2-4ca7-8614-a516f7efe015.023.png)
 
