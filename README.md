@@ -1,12 +1,6 @@
 # Introduction
 
-## Blackjack is a popular casino card game. The objective of the game is
-
-## to have a hand with a higher total value than the other
-
-## player/dealer, without going over 21. Each player is dealt two cards,
-
-## and can then choose to "hit" to receive additional cards or "stand"
+Blackjack is a popular card game. The objective of the game is to have a hand with a higher total value than the other player/dealer, without going over 21. Each player is dealt two cards,and can then choose to "hit" to receive additional cards or "stand"
 
 ## to keep their current total. If playing against the dealer (ie
 
