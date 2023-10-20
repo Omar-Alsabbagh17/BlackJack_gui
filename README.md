@@ -6,8 +6,8 @@ Blackjack is a popular card game. The objective of the game is to have a hand wi
 ##  Flow Chart
 
 
-![] {__readme_stuff/Aspose.Words.6816781b-e4e2-4ca7-8614-a516f7efe015.023.png}
-### Multiplayer flow chart
+![](__readme_stuff/Aspose.Words.6816781b-e4e2-4ca7-8614-a516f7efe015.023.png)
+*** Multiplayer flow chart *** 
 ## Game Play 
 
 ![](__readme_stuff/Aspose.Words.6816781b-e4e2-4ca7-8614-a516f7efe015.001.png)
