@@ -1,12 +1,12 @@
 ﻿# Introduction
 
-Blackjack is a popular card game. The objective of the game is to have a hand with a higher total value than the other player/dealer, without going over 21. Each player is dealt two cards, and can then choose to "hit" to receive additional cards or "stand" to keep their current total. If playing against the dealer (ie singlePlayer mode), then the dealer also receives two cards, with one facing up and one facing down. The dealer must hit until their hand has a value of at least 17. A player wins if their hand is closer to 21 than the dealer's, or if the dealer goes over 21, known as "busting." Each card is worth its face value from 2 to 10. Ace’s are worth either 1 or 11, whatever is favorable for the player’s win condition. Face cards (king,queen,jack) are worth 10. An automatic win (Black Jack) occurs when a player or dealer draws an ace and face card during the start 
+Blackjack is a popular card game. The objective of the game is to have a hand with a higher total value than the other player/dealer, without going over 21. Each player is dealt two cards, and can then choose to "hit" to receive additional cards or "stand" to keep their current total. If playing against the dealer (ie singlePlayer mode), then the dealer also receives two cards, with one facing up and one facing down. The dealer must hit until their hand has a value of at least 17. A player wins if their hand is closer to 21 than the dealer's, or if the dealer goes over 21, known as "busting." Each card is worth its face value from 2 to 10. Ace’s are worth either 1 or 11, whatever is favorable for the player’s win condition. Face cards (king, queen, jack) are worth 10. An automatic win (blackjack) occurs when a player or dealer draws an ace and face card during the start 
 
 ## Game Play 
 
 ![](__readme_stuff/Aspose.Words.6816781b-e4e2-4ca7-8614-a516f7efe015.001.png)
 
-Upon launching the application, there will be home screen music playing with two buttons in the middle of the screen one for single player and the other for multiplayer. 
+Upon launching the application, there will be home screen music playing with two buttons in the middle of the screen one for single-player and the other for multiplayer. 
 
 ![](__readme_stuff/Aspose.Words.6816781b-e4e2-4ca7-8614-a516f7efe015.002.jpeg)
 
@@ -14,17 +14,17 @@ After clicking on multiplayer, the player will be greeted by a start button. Who
 
 ![](__readme_stuff/Aspose.Words.6816781b-e4e2-4ca7-8614-a516f7efe015.003.jpeg)
 
-Player 2 joining the game will result in a screen where player 1 gets to decide the amount of bet for both players with the “Change Bet” button or they can choose to immediately deal. Meanwhile, player 2 has the message “Waiting fo player one to deal the cards” displayed on their screen.
+Player 2 joining the game will result in a screen where player 1 gets to decide the amount of bet for both players with the “Change Bet” button or they can choose to immediately deal. Meanwhile, player 2 has the message “Waiting for player one to deal the cards” displayed on their screen.
 
 ![](__readme_stuff/Aspose.Words.6816781b-e4e2-4ca7-8614-a516f7efe015.004.jpeg)
 
-Once the deal button is clicked, both players will be dealt two cards that are hidden from the other player. Players will have the option to click “Hit” adding an additional card to their hand or click “Stand” to end their turn. Players can have as many as 5 cards or if total value passes 21, which is considered a bust. Acquiring a bust will automatically end one’s turn. 
+Once the deal button is clicked, both players will be dealt two cards that are hidden from the other player. Players will have the option to click “Hit” to add an additional card to their hand or click “Stand” to end their turn. Players can have as many as 5 cards or if the total value passes 21, which is considered a bust. Acquiring a bust will automatically end one’s turn. 
 
-The value of a player’s hand is displayed in the “totalCountField” next to each players first card.
+The value of a player’s hand is displayed in the “totalCountField” next to each player's first card.
 
 ![](__readme_stuff/Aspose.Words.6816781b-e4e2-4ca7-8614-a516f7efe015.005.jpeg)
 
-` `Whoever’s turn ends first whether that be by bust or manually clicking stand will see the message “Waiting for other player..” until the other player ends their turn. Afterwards, both player’s hand will be revealed and total count value will be compared. A player that has a higher value while under 21 will win that round, while the other loses. If both players have the same value or both bust then that will be a tie. A player will be given a post round screen with Music that correlates to their round status, such as “YOU WIN” if the player won. After the post round screen, the players’ stats bar and total money will be updated accordingly based on round status. 
+` `Whoever’s turn ends first whether that be by a bust or manually clicking stand will see the message “Waiting for other players..” until the other player ends their turn. Afterward, both player’s hand will be revealed and total count value will be compared. A player that has a higher value while under 21 will win that round, while the other loses. If both players have the same value or both bust then that will be a tie. A player will be given a post-round screen with Music that correlates to their round status, such as “YOU WIN” if the player won. After the post-round screen, the players’ stats bar and total money will be updated accordingly based on round status. 
 
 ![](__readme_stuff/Aspose.Words.6816781b-e4e2-4ca7-8614-a516f7efe015.006.jpeg)
 
@@ -40,7 +40,7 @@ When a player loses and reaches $0 total, a    game over screen will be displaye
 
 **changBetPushed**: This is callback function, called whenever the player presses  “change BET” button. 
 
-- It makes bet text field editable so that the player can adjust the bet amount, and also reveals the “confirm New Bet” button. Is disables the “deal” button since we can’t deal unless we choose a proper bet amount 
+- It makes the bet text field editable so that the player can adjust the bet amount, and also reveals the “confirm New Bet” button. Is disables the “deal” button since we can’t deal unless we choose a proper bet amount 
 
 ![](__readme_stuff/Aspose.Words.6816781b-e4e2-4ca7-8614-a516f7efe015.008.png)
 
@@ -58,14 +58,14 @@ When a player loses and reaches $0 total, a    game over screen will be displaye
 - Assigns the correct image for each card visualization 
 - If player/dealer has 2 Ace’s in their hand (hence they get busted), then it will make Ace worth 1 instead 11 therefore the player/dealer won’t be busted. 
 
-o  ACE either worths 1 or 11, depending on which is in your favor 
+o  ACE is either worth 1 or 11, depending on which is in your favor 
 
 ![](__readme_stuff/Aspose.Words.6816781b-e4e2-4ca7-8614-a516f7efe015.010.png)
 
-**hitPushed**: This is a callback function that is called whenever the player presses “Hit” button. 
+**hitPushed**: This is a callback function that is called whenever the player presses the “Hit” button. 
 
-- It draws a card by calling “draw\_card” function, then assigns the proper image to the card visualization. 
-- The game is built such that you can’t draw more than 5 cards, however that is unlikely to happen since you will probably will be busted before having 5 cards. If you drew 5 cards and you are not busted, then your turn will end. 
+- It draws a card by calling the “draw\_card” function, then assigns the proper image to the card visualization. 
+- The game is built such that you can’t draw more than 5 cards, however, that is unlikely to happen since you will probably will be busted before having 5 cards. If you drew 5 cards and you are not busted, then your turn will end. 
 - If you drew Ace and it’s make go busted, then the ace will worth 1 instead of 11 and you won’t be busted. 
 
 ![](__readme_stuff/Aspose.Words.6816781b-e4e2-4ca7-8614-a516f7efe015.011.png)
