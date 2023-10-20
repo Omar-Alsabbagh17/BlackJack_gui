@@ -4,7 +4,7 @@ Blackjack is a popular card game. The objective of the game is to have a hand wi
 
 **Game Play** 
 
-![](__readme_stuff/__readme_stuff/Aspose.Words.6816781b-e4e2-4ca7-8614-a516f7efe015.001.png)
+![](__readme_stuff/Aspose.Words.6816781b-e4e2-4ca7-8614-a516f7efe015.001.png)
 
 Upon launching the application, there will be home screen music playing with two buttons in the middle of the screen one for single player and the other for multiplayer. 
 
