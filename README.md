@@ -2,6 +2,9 @@
 
 Blackjack is a popular card game. The objective of the game is to have a hand with a higher total value than the other player/dealer, without going over 21. Each player is dealt two cards, and can then choose to "hit" to receive additional cards or "stand" to keep their current total. If playing against the dealer (ie singlePlayer mode), then the dealer also receives two cards, with one facing up and one facing down. The dealer must hit until their hand has a value of at least 17. A player wins if their hand is closer to 21 than the dealer's, or if the dealer goes over 21, known as "busting." Each card is worth its face value from 2 to 10. Ace’s are worth either 1 or 11, whatever is favorable for the player’s win condition. Face cards (king, queen, jack) are worth 10. An automatic win (blackjack) occurs when a player or dealer draws an ace and face card during the start 
 
+I also made a walkthrough video which you can access from the link below
+https://onedrive.live.com/?authkey=%21AKD2sW4m3TceoD0&cid=52840FA5CBA000D9&id=52840FA5CBA000D9%2112439&parId=52840FA5CBA000D9%215452&o=OneUp
+
 ## Single Player mode flow chart
 ![](lt1ed0cg.png)
 
